@@ -1,5 +1,5 @@
 create table [dbo].[DimEmployee](
-	[EmployeeKey] [int] identity(1,1) not null,
+	[EmployeeKey] [int] identity(1,1) null,
 	[ParentEmployeeKey] [int] null,
 	[EmployeeNationalIDAlternateKey] [nvarchar](15) null,
 	[ParentEmployeeNationalIDAlternateKey] [nvarchar](15) null,
