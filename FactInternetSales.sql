@@ -25,4 +25,5 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[OrderDate] [datetime] NULL,
 	[DueDate] [datetime] NULL,
 	[ShipDate] [datetime] NULL,
+	[NewColumn] [int] not null
 )
